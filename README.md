@@ -1,4 +1,4 @@
-🧠 Đề tài: Phát hiện khối u não từ ảnh MRI sử dụng YOLOv10
+[PYTORCH] Convolutional Neural Networks for Playing Tetris
 
 🏷️ Có báo cáo đi kèm
 
