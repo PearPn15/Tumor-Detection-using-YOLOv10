@@ -34,7 +34,8 @@
 - Replace the path in the file `Classification_Pearpn.ipynb`.
 ## Requirements
 - `python == 3.10.7`
-- `open-cv == 4.08.0.7`
+- `opencv-python == 4.8.0.7`
 - `torch==2.7.1`
+- `pytorch==2.7.1`
 ## Installation
 `https://github.com/PearPn15/Tumor-Detection-using-YOLOv10.git`
