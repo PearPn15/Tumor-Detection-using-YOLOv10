@@ -1,53 +1,67 @@
-# [PYTORCH] Convolutional Neural Networks for Playing Tetris
+# Tumor-Detection-using-YOLOv10
+## Introduction
+- Built an AI model using YOLOv10 to detect and classify tumor regions in medical images.
 
-🏷️ Có báo cáo đi kèm
+- Customized the Ultralytics YOLO library to adjust input and output pipelines for tumor detection
 
-🎯 Mục tiêu
+- Preprocessed and annotated a dataset of CT/MRI scans.
 
-Xây dựng một mô hình học sâu sử dụng kiến trúc YOLOv10 để tự động phát hiện và phân loại các loại khối u não từ ảnh chụp cộng hưởng từ (MRI), từ đó hỗ trợ chẩn đoán y tế một cách nhanh chóng và chính xác.
+- Fine-tuned YOLOv10 with transfer learning for classification.
 
-📂 Thông tin về bộ dữ liệu
+- Achieved 90% mAP50 on validation set.
 
-📦 Nguồn: MRI for Brain Tumor with Bounding Boxes – Kaggle (https://www.kaggle.com/datasets/ahmedsorour1/mri-for-brain-tumor-with-bounding-boxes)
+- Deployed a demo web interface for doctors to upload images and receive detection results.
 
+🏷️ Report Included
 
-📸 Tổng số ảnh: 3.906 ảnh MRI được chú thích bằng hộp giới hạn (bounding boxes) theo định dạng YOLO.
+📸 Total Images: 3,906 MRI images annotated with bounding boxes in YOLO format.
 
-🏷️ Số lớp (4 lớp):
+🏷️ Number of Classes (4 classes):
 
-Lớp 0: U thần kinh đệm (Glioma)
+- Class 0: Glioma
 
-Lớp 1: U màng não (Meningioma)
+- Class 1: Meningioma
 
-Lớp 2: Không có khối u (No Tumor)
+- Class 2: No Tumor
 
-Lớp 3: Tuyến yên (Pituitary tumor)
+- Class 3: Pituitary Tumor
 
-🔢 Phân tách dữ liệu
+🔢 Data Split
 
-Train set
+Training Set
 
-Số lượng ảnh
+- Glioma: 1,153 images
 
-U thần kinh đệm	1.153
+- Meningioma: 1,449 images
 
-U màng não	1.449
+- No Tumor: 711 images
 
-Không có khối u	711
+- Pituitary Tumor: 1,424 images
 
-Tuyến yên	1.424
+Validation Set
 
-Validation set
+- Glioma: 136 images
 
-Số lượng ảnh
+- Meningioma: 140 images
 
-U thần kinh đệm	136
+- No Tumor: 100 images
 
-U màng não	140
+- Pituitary Tumor: 136 images
+<img width="1874" height="699" alt="image" src="https://github.com/user-attachments/assets/cb945134-f2a1-411e-b485-4e3c1cc20b3c" />
 
-Không có khối u	100
+🔗 YouTube Link: [Project Demo](https://www.youtube.com/watch?v=iM6E3sPSoaQ&t=1s)
 
-Tuyến yên	136
+## How to use my code
 
-Link YTB: https://www.youtube.com/watch?v=iM6E3sPSoaQ&t=1s
+- Dataset : https://www.kaggle.com/datasets/ahmedsorour1/mri-for-brain-tumor-with-bounding-boxes
+- Uploaded the annotated MRI dataset (3,906 images, YOLO format) to Roboflow for easier dataset management and version control.
+  <img width="1284" height="145" alt="image" src="https://github.com/user-attachments/assets/236739bc-bb2d-480a-bcbc-74af38197099" />
+- Replace the path in the file `Classification_Pearpn.ipynb`.
 
+## Requirements
+- `python == 3.10.7`
+- `open-cv == 4.08.0.7`
+- `torch==2.7.1`
+
+## Installation
+`https://github.com/PearPn15/Tumor-Detection-using-YOLOv10.git`
