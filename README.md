@@ -38,4 +38,4 @@
 - `torch==2.7.1`
 - `pytorch==2.7.1`
 ## Installation
-`https://github.com/PearPn15/Tumor-Detection-using-YOLOv10.git`
+`git clone https://github.com/PearPn15/Tumor-Detection-using-YOLOv10.git`
