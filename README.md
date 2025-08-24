@@ -6,8 +6,8 @@
 - Fine-tuned YOLOv10 with transfer learning for classification.
 - Achieved 90% mAP50 on validation set.
 - Deployed a demo web interface for doctors to upload images and receive detection results.
-🏷️ Report Included
-📸 Total Images: 3,906 MRI images annotated with bounding boxes in YOLO format.
+- 🏷️ Report Included
+- 📸 Total Images: 3,906 MRI images annotated with bounding boxes in YOLO format.
 🏷️ Number of Classes (4 classes):
 - Class 0: Glioma
 - Class 1: Meningioma
