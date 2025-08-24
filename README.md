@@ -1,4 +1,4 @@
-#[PYTORCH] Convolutional Neural Networks for Playing Tetris
+# [PYTORCH] Convolutional Neural Networks for Playing Tetris
 
 🏷️ Có báo cáo đi kèm
 
